@@ -4,7 +4,7 @@ def print_formatted(n):
     for i in range(1,n+1):
 
         binary = bin(int(i)).replace('0b','').rjust(num,' ')
-        octal = oct(int(i)).replace('0','').rjust(num,' ')
+        octal = oct(int(i)).replace('0o','').rjust(num,' ')
         hexadec = hex(int(i)).replace('0x','').upper().rjust(num,' ')
         j = str(i).rjust(num,' ')
         print (j,octal,hexadec,binary)
