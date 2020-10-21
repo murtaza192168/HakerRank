@@ -1,0 +1,15 @@
+M=int(input())
+m=list(map(int,input().split()))
+
+N=int(input())
+n=list(map(int,input().split()))
+
+m1=set(m)
+n1=set(n)
+
+l1=m1.difference(n1)
+l2=n1.difference(m1)
+symm_diff=l1.union(l2)
+list1=list(symm_diff)
+sortedlist=sorted(list1)
+print(*sortedlist,sep='\n')
