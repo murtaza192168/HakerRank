@@ -32,7 +32,7 @@ SELECT NAME
 FROM CITY
 WHERE COUNTRYCODE = 'JPN';
 ------------------------------------
---Aggregate Func
+--************************Aggregate Functions**********************
 --Query a count of the number of cities in CITY having a Population larger than .
 
 
