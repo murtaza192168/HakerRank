@@ -62,3 +62,8 @@ FROM CITY;
 SELECT SUM(POPULATION)
 FROM CITY
 WHERE COUNTRYCODE = 'JPN';
+-------------------------:---:-------------
+--Query the difference between the maximum and minimum populations in city
+
+SELECT MAX(POPULATION) - MIN(POPULATION) AS POPULATION_DIFFERENCE
+FROM CITY;
