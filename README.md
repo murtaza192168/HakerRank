@@ -1,1 +1,1 @@
-# HakerRank
+# HakerRank Solutions
